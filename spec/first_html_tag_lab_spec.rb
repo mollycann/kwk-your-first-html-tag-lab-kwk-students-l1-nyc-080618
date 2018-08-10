@@ -1,4 +1,4 @@
-RSpec.describe 'Your First HTML Tag' do
+RSpec.describe <h1> do
   it 'is an H1 in index.html' do
     h1 = parsed_html.search('h1').first
 
